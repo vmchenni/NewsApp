@@ -14,6 +14,10 @@
 		DCE3222A2A93135E0058C3AE /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE322292A93135E0058C3AE /* NewsAppTests.swift */; };
 		DCE322342A93135E0058C3AE /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE322332A93135E0058C3AE /* NewsAppUITests.swift */; };
 		DCE322362A93135E0058C3AE /* NewsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE322352A93135E0058C3AE /* NewsAppUITestsLaunchTests.swift */; };
+		DCE3227A2A931E950058C3AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE322792A931E950058C3AE /* NetworkManager.swift */; };
+		DCE3227C2A93207A0058C3AE /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3227B2A93207A0058C3AE /* PostData.swift */; };
+		DCE3227F2A93459D0058C3AE /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3227E2A93459D0058C3AE /* DetailedView.swift */; };
+		DCE322812A93581C0058C3AE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE322802A93581C0058C3AE /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		DCE3222F2A93135E0058C3AE /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE322332A93135E0058C3AE /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		DCE322352A93135E0058C3AE /* NewsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCE322792A931E950058C3AE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DCE3227B2A93207A0058C3AE /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		DCE3227E2A93459D0058C3AE /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
+		DCE322802A93581C0058C3AE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		DCE3220C2A93135A0058C3AE = {
 			isa = PBXGroup;
 			children = (
+				DCE322782A931E7F0058C3AE /* Models */,
 				DCE322172A93135A0058C3AE /* NewsApp */,
 				DCE322282A93135E0058C3AE /* NewsAppTests */,
 				DCE322322A93135E0058C3AE /* NewsAppUITests */,
@@ -95,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DCE322182A93135A0058C3AE /* NewsAppApp.swift */,
-				DCE3221A2A93135A0058C3AE /* ContentView.swift */,
+				DCE3227D2A93457E0058C3AE /* Views */,
 				DCE3221C2A93135D0058C3AE /* Assets.xcassets */,
 				DCE3221E2A93135D0058C3AE /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				DCE322352A93135E0058C3AE /* NewsAppUITestsLaunchTests.swift */,
 			);
 			path = NewsAppUITests;
+			sourceTree = "<group>";
+		};
+		DCE322782A931E7F0058C3AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCE322792A931E950058C3AE /* NetworkManager.swift */,
+				DCE3227B2A93207A0058C3AE /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCE3227D2A93457E0058C3AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCE3221A2A93135A0058C3AE /* ContentView.swift */,
+				DCE3227E2A93459D0058C3AE /* DetailedView.swift */,
+				DCE322802A93581C0058C3AE /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE3227A2A931E950058C3AE /* NetworkManager.swift in Sources */,
+				DCE3227C2A93207A0058C3AE /* PostData.swift in Sources */,
+				DCE3227F2A93459D0058C3AE /* DetailedView.swift in Sources */,
+				DCE322812A93581C0058C3AE /* WebView.swift in Sources */,
 				DCE3221B2A93135A0058C3AE /* ContentView.swift in Sources */,
 				DCE322192A93135A0058C3AE /* NewsAppApp.swift in Sources */,
 			);
